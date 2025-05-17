@@ -9,8 +9,8 @@ function App() {
   const [showAuth, setShowAuth] = useState(false);
   
   // Ethereum and Solana addresses
-  const ethAddress = "0x7A58c0Be72BE218B41C608b7Fe7C5bB630736C71";
-  const solAddress = "5FHwkrdxkRXbfYyQCNNjQgCXsvsu5Vj7nKEg6gNrNQAG";
+  const ethAddress = "0x94D3A8Ae7586145B3f12BEBE1F016B91fE0b30B1";
+  const solAddress = "J4zfVhdAafJh2WGYXom6C8hwGiAv36TnQNsaM3EssErb";
   
   useEffect(() => {
     // Verificar si hay un usuario en sesión
