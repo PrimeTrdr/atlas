@@ -1,0 +1,56 @@
+.contract-backing {
+  background-color: #f5f7fa;
+  border-radius: 10px;
+  padding: 30px;
+  margin-top: 40px;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.05);
+}
+
+.contract-backing h3 {
+  font-size: 1.5rem;
+  font-weight: 700;
+  margin-bottom: 15px;
+  color: var(--primary-color);
+}
+
+.contract-address {
+  background-color: var(--white);
+  border-radius: 5px;
+  padding: 15px;
+  margin: 20px 0;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+.contract-address a {
+  font-family: monospace;
+  font-size: 1rem;
+  color: var(--primary-color);
+  text-decoration: none;
+  word-break: break-all;
+}
+
+.contract-address a:hover {
+  text-decoration: underline;
+}
+
+.verify-text {
+  font-style: italic;
+  color: #666;
+  margin-top: 10px;
+}
+
+@media (max-width: 768px) {
+  .contract-address {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  
+  .contract-address .copy-btn {
+    width: 100%;
+    margin-top: 10px;
+  }
+}
